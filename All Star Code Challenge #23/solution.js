@@ -1,4 +1,4 @@
-// Código pode ser um pouco lento, mais
+// Código pode ser um pouco lento, mais é simples de dar manutenção
 
 // Sistema de distribuição de pontos
 const scoringSystem = {
@@ -7,7 +7,7 @@ const scoringSystem = {
   damage: 0.5, // Cada ponto de dano causado vale 0,5 pontos
   healing: 1, // Cada ponto de cura realizado vale 1 ponto
   envKill: 500, // As mortes ambientais valem 500 pontos (estes são contados separadamente das mortes normais)
-  streakScore(streak) {
+  getStreakScore(streak) {
     return Math.pow(2, streak); // A sequência de mortes mais longa vale 2 ^ N, onde N é o número de mortes da sequência
   },
 };
@@ -21,12 +21,9 @@ const getPlayerScore = (player) => {
   });
 
   // Pontuação por sequencia de kills
-  score += scoringSystem.streakScore(player.streak);
+  score += scoringSystem.getStreakScore(player.streak);
 
-  return {
-    ...player,
-    score,
-  };
+  return { ...player, score };
 };
 
 // Retorna o jogador com maior pontuação em ordem decrescente
