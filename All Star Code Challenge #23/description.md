@@ -1,8 +1,11 @@
-#Desafio All Star Code #23
+**Desafio All Star Code #23**
 
 Existe um certo jogo multijogador onde os jogadores são avaliados por mérito no final do jogo. Os jogadores são classificados de acordo com um sistema de pontuação interno que os jogadores não veem.<br>
+
 Você descobriu a fórmula do sistema de pontuação!<br>
+
 Crie uma função chamada scoring()que pega um array de objetos Player e retorna um array de nomes de jogadores, em ordem decrescente de pontuação (a pontuação mais alta é o índice 0, a segunda mais alta é o índice 1, etc.).<br>
+
 A pontuação de cada jogador é calculada da seguinte forma:<br>
 
 * Cada morte normal vale 100 pontos
