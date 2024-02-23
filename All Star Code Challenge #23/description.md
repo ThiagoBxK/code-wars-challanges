@@ -1,4 +1,6 @@
-**Desafio All Star Code #23**
+
+
+<span style="font-size:0.5em;">Desafio All Star Code #23</span>
 
 Existe um certo jogo multijogador onde os jogadores são avaliados por mérito no final do jogo. Os jogadores são classificados de acordo com um sistema de pontuação interno que os jogadores não veem.<br>
 
