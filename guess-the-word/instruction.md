@@ -1,5 +1,3 @@
-## **Desafio All Star Code #23**
-
 Considere um jogo em que o jogador deve adivinhar uma palavra-alvo. Tudo o que o jogador sabe é o comprimento da palavra alvo.
 
 Para ajudá-los em seu objetivo, o jogo aceitará palpites e retornará a quantidade de letras que estiverem na posição correta.
