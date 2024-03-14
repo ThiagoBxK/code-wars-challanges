@@ -1,11 +1,11 @@
-Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
+Sua tarefa é classificar uma determinada string. Cada palavra na string conterá um único número. Este número é a posição que a palavra deve ocupar no resultado.
 
-Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+Nota: Os números podem ser de 1 a 9. Portanto, 1 será a primeira palavra (não 0).
 
-If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
+Se a string de entrada estiver vazia, retorne uma string vazia. As palavras na String de entrada conterão apenas números consecutivos válidos.
 
 ```
 "is2 Thi1s T4est 3a" --> "Thi1s is2 3a T4est"
-"4of Fo1r pe6ople g3ood th5e the2" --> "Fo1r the2 g3ood 4of th5e pe6ople"
+"4of Fo1r pe6ople g3ood th5e the2" --> "For1r the2 g3ood 4of th5e pe6ople"
 "" --> ""
 ```
