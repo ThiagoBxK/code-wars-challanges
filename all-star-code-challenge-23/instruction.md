@@ -8,13 +8,13 @@ Crie uma função chamada scoring()que pega um array de objetos Player e retorna
 
 A pontuação de cada jogador é calculada da seguinte forma:<br>
 
-* Cada morte normal vale 100 pontos
-* Cada assistência vale 50 pontos
-* Cada ponto de dano causado vale 0,5 pontos
-* Cada ponto de cura realizado vale 1 ponto
-* A sequência de mortes mais longa vale 2 ^ N, onde N é o número de mortes da sequência
-* As mortes ambientais valem 500 pontos (estes são contados separadamente das mortes normais)
-* Para cada uma das estatísticas acima, um objeto Player contém um respectivo par "chave:valor". Todos os valores, exceto o 'nome', são inteiros.
+- Cada morte normal vale 100 pontos
+- Cada assistência vale 50 pontos
+- Cada ponto de dano causado vale 0,5 pontos
+- Cada ponto de cura realizado vale 1 ponto
+- A sequência de mortes mais longa vale 2 ^ N, onde N é o número de mortes da sequência
+- As mortes ambientais valem 500 pontos (estes são contados separadamente das mortes normais)
+- Para cada uma das estatísticas acima, um objeto Player contém um respectivo par "chave:valor". Todos os valores, exceto o 'nome', são inteiros.
 
 ```
 var player1 = {
@@ -35,7 +35,7 @@ var player2 = {
   streak: 0,
   envKill: 0
 }
-scoring([player1, player2]); 
+scoring([player1, player2]);
 //["JuanPable","ProfX"]
 // Scores of 3216 and 2701, respectively.
 ```

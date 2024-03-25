@@ -1,13 +1,13 @@
 function count(string) {
-    const list = {};
+  const list = {};
 
-    string.split("").forEach(key => {
-        if (!list[key]) list[key] = 0;
+  string.split("").forEach((key) => {
+    if (!list[key]) list[key] = 0;
 
-        list[key]++
-    });
+    list[key]++;
+  });
 
-    return list;
+  return list;
 }
 
 export default count;
